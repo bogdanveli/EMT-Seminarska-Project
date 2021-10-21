@@ -1,0 +1,101 @@
+.cart-items{
+    margin: 30px auto;
+    width: 50%;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.cart-items-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    height: 50px;
+    border-bottom: 2px solid black;
+    font-weight: 700;
+}
+.cart-items-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cart-items-image{
+    width: 100px;
+    height: auto;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.cart-items-list{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.cart-items-name, .cart-items-function{
+    width: 25%;
+}
+.cart-items-add, .cart-items-remove{
+    width: 30px;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: yellow;
+    cursor: pointer;
+}
+.cart-items-add{
+    background-color: red;
+}
+.cart-items-remove{
+    background-color: green;
+}
+.cart-items-total-price-name{
+    float: right;
+    width: 100%;
+    margin-top: 30px;
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 55px;
+
+}
+.cart-items-total-price{
+    padding-left: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.remove-all{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.remove-all-button{
+    border: none;
+    border-radius: 5px;
+    background-color: #06377B;
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.remove-all-button:hover{ background-color: red;}
